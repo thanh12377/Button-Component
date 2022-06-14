@@ -1,0 +1,136 @@
+:root{
+    --hover:rgb(176, 176, 176);
+    --header-color:#525354;
+    --header-font-size:calc(1em + 1vw);
+    --text-font-size:calc(.1em + 1vw);
+    --btn-font-size:calc(.2em + 1vw);
+    --primary:rgb(83 83 245);
+    --secondary: rgb(118 118 118);
+    --danger:rgb(223 41 75);
+    --primary-hover:rgb(32 32 231);
+    --secondary-hover: rgb(68 67 67);
+    --danger-hover:rgb(187 18 50);
+    --primary-light:rgb(83 83 245 / 60%);;
+    --secondary-light: rgb(118 118 118 / 56%);;
+    --danger-light:rgb(223 41 75 / 50%);
+}
+.container{
+    min-height: 100vh;
+    display: grid;
+    gap: 3em;
+    margin: 3em;
+}
+
+h3{
+    font-size: var(--header-font-size);
+    color: var(--header-color);
+    letter-spacing: 0.03em;
+}
+
+
+.btn-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:3em;
+
+}
+
+button.outline{
+    color:var(--primary);
+    border: 2px solid;
+    background: none !important;
+}
+
+.default, .default-hover{
+    box-shadow: 1px 2px 4px #0000002b;
+    color: var(--header-color) !important;
+}
+
+.btn-box button:hover ,.btn-box button:focus{
+    filter: brightness(0.8);
+}
+.default-hover {
+    background-color: #b1b0b0 ;
+    font-weight: 700;
+}
+
+.hoverText {
+    color: var(--hover);
+}
+
+.primary{
+    background-color: var(--primary);
+    color: #fff;
+    box-shadow: 1px 2px 4px #0000002b;
+}
+
+button.outline-hover {
+    color: var(--primary);
+    border: 2px solid;
+    background-color: #b4d3ff6b;
+}
+.text {
+    background: none;
+    color: var(--primary);
+    box-shadow: none;
+}
+
+.text:hover,.outline:hover{
+    font-weight: 700;
+}
+
+.text-hover{
+    background-color:#b4d3ff6b ;
+    color: var(--primary);
+}
+
+.disable,.disabled-hover{
+    color:#9ea1a3;
+    cursor:not-allowed;
+    box-shadow: none;
+}
+.disabled-hover{
+    background: none;
+}
+
+.grocery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sm{
+    width: 4em;
+}
+.md{
+    width: 5em;
+}
+.lg{
+    width: 6em;
+}
+
+.secondary{
+    background-color : var(--secondary);
+    color: white;
+}
+
+.danger{
+    background-color: var(--danger);
+    color:white;
+}
+
+.primary-hover{
+    background-color: var(--primary-hover);
+    color:white;
+}
+
+.secondary-hover{
+    background-color: var(--secondary-hover);
+    color:white;
+}
+
+.danger-hover{
+    background-color: var(--danger-hover);
+    color:white;
+}
