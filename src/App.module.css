@@ -27,6 +27,9 @@ h3{
     letter-spacing: 0.03em;
 }
 
+.flex{
+
+}
 
 .btn-box{
     display: flex;
@@ -52,7 +55,7 @@ button.outline{
 }
 .default-hover {
     background-color: #b1b0b0 ;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .hoverText {
@@ -65,6 +68,8 @@ button.outline{
     box-shadow: 1px 2px 4px #0000002b;
 }
 
+
+
 button.outline-hover {
     color: var(--primary);
     border: 2px solid;
@@ -76,8 +81,13 @@ button.outline-hover {
     box-shadow: none;
 }
 
-.text:hover,.outline:hover{
-    font-weight: 700;
+.outline:hover{
+    background-color: #b4d3ff6b !important;
+}
+
+.text:hover{
+    background-color: #b4d3ff6b !important;
+
 }
 
 .text-hover{

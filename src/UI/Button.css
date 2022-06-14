@@ -1,0 +1,156 @@
+:root {
+    --hover: rgb(176, 176, 176);
+    --header-color: #525354;
+    --header-font-size: calc(1em + 1vw);
+    --text-font-size: calc(.1em + 1vw);
+    --btn-font-size: calc(.2em + 1vw);
+    --primary: rgb(83 83 245);
+    --secondary: #455A64;
+    --danger: #D32F2F;
+    --primary-hover: rgb(32 32 231);
+    --secondary-hover: rgb(68 67 67);
+    --danger-hover: rgb(187 18 50);
+    --primary-light: rgb(83 83 245 / 60%);
+    ;
+    --secondary-light: rgb(118 118 118 / 56%);
+    ;
+    --danger-light: rgb(223 41 75 / 50%);
+}
+
+
+.btn--danger {
+    position: absolute;
+    display: block;
+    width: 81px;
+    height: 36px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    width: 7em;
+    color: #3F3F3F;
+    font-weight: 500;
+    color: #fff;
+    background: var(--danger);
+}
+
+
+.btn--secondary {
+    position: absolute;
+    display: block;
+    width: 81px;
+    height: 36px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    width: 7em;
+    color: #3F3F3F;
+    font-weight: 500;
+    color: #fff;
+    background: var(--secondary);
+}
+
+.btn--danger:hover {
+    background: #9A0007 !important;
+    box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2) !important;
+}
+
+
+.btn--secondary:hover {
+    background: #1C313A !important;
+    box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2) !important;
+}
+
+.btn--primary:hover {
+    background: #0039CB !important;
+    box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2) !important;
+}
+
+.btn--primary {
+    position: absolute;
+    display: block;
+    width: 81px;
+    height: 36px;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    width: 7em;
+    color: #3F3F3F;
+    font-weight: 500;
+    color: #fff;
+    background: var(--primary);
+}
+
+.btn--default:hover {
+    filter: brightness(0.8);
+}
+
+.btn--default {
+    position: absolute;
+    display: block;
+    width: 81px;
+    height: 36px;
+    border: none;
+    background: #E0E0E0;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    width: 7em;
+    color: #3F3F3F;
+    font-weight: 500;
+}
+
+.btn--outline {
+    background: none;
+    color: var(--primary);
+    border: 2px solid;
+}
+
+.btn--outline:hover,
+.btn--text:hover {
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.btn--text {
+    background: none;
+    box-shadow: none;
+    color: var(--primary);
+}
+
+.btn--disableShadow {
+    box-shadow: none;
+    background: #3D5AFE;
+    color: #fff;
+}
+
+button:disabled {
+    color: #9E9E9E;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+.btn--startIcon,
+.btn--endIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2962FF;
+    box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+    color: #fff;
+}
+
+.btn--sm {
+    width: 5em;
+    background: #2962FF;
+    color: #fff;
+}
+
+.btn--md {
+    width: 7em;
+    background: #2962FF;
+    color: #fff;
+}
+
+.btn--lg {
+    width: 9em;
+    background: #2962FF;
+    color: #fff;
+}
